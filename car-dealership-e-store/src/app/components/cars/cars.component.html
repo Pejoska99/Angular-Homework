@@ -1,0 +1,10 @@
+  <section>
+    <h1>Home</h1>
+    <ul class="car-list">
+      <li *ngFor="let car of cars" class="car-item">
+        <app-single-car [car]="car"></app-single-car>
+      </li>
+    </ul>
+  </section>
+  
+  
